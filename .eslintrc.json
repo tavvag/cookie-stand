@@ -1,0 +1,68 @@
+
+ 
+Pull requests
+Issues
+Marketplace
+Explore
+ @tavvag
+ Watch 0
+ Star 0
+ Fork 0 manisha0101/class-03-lab05-part1
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+Branch: master Find file Copy path class-03-lab05-part1/.eslintrc.json
+@manisha0101 manisha0101 Finalised AboutMe for Lab 5
+3fa736c  15 hours ago
+1 contributor
+38 lines (38 sloc)  804 Bytes
+RawBlameHistory
+    
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+        "impliedStrict": true
+      }
+    },
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "rules": {
+      "eqeqeq": ["error", "always"],
+      "no-console": "off",
+      "no-undefined": "off",
+      "indent": ["error", 2],
+      "quotes": ["warn", "single"],
+      "no-multi-spaces": [
+        "warn",
+        {
+          "exceptions": {
+            "VariableDeclarator": true
+          }
+        }
+      ],
+      "no-trailing-spaces": "warn",
+      "new-cap": "warn",
+      "no-redeclare": [
+        "error",
+        {
+          "builtinGlobals": true
+        }
+      ],
+      "semi": [2, "always"],
+      "eol-last": "error"
+    }
+  }
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
