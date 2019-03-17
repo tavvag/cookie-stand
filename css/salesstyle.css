@@ -5,11 +5,10 @@ body {
 
  ul{
     font-weight:bold; 
-    text-decoration:underline; 
     
  }
 
  ul li{
     font-weight:none; 
-    text-decoration:none;  
+    
  }
