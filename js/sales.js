@@ -2,6 +2,7 @@
 
 
 var locationHours =['6am','7am','8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm','4pm', '5pm', '6pm', '7pm', '8pm'];
+
 var firstSubmit=false;
 var tableData =[];
 var totalLocations =0;
@@ -138,4 +139,3 @@ function grandTotal(totalHourSales){
 //Main Start of the program
 
 form.addEventListener('submit', formSalesLocationData);
-
