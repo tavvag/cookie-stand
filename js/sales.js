@@ -19,7 +19,7 @@ function SalamonCookieLocation(locationName,minCustomer,maxCustomer,averageCooki
 }
 //Generate Randam number
 SalamonCookieLocation.prototype.averageCustomersPerHour=function(){
-  return Math.floor(Math.random() * (this.maxCustomer-this.minCustomer)+20);
+  return Math.floor(Math.random() * ((this.maxCustomer-this.minCustomer)+20));
 };
 //Calculate cookies sold by hour
 SalamonCookieLocation.prototype.cookiesSoldPerHour=function(){
