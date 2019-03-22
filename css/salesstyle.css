@@ -1,30 +1,58 @@
 body {
-    font-family: "'Alegreya Sans'", "Book Antiqua", Palatino, serif;
-    background-color: antiquewhite;
- }
 
- ul{
-    font-weight:bold; 
-    text-decoration:underline; 
-    
- }
+   font-family: "'Alegreya Sans'", "Book Antiqua", Palatino, serif;
+   background-color: antiquewhite;
+}
 
- ul li{
-    font-weight:none; 
-    text-decoration:none;  
- }
+ul{
+   font-weight:bold; 
+   text-decoration:underline; 
+   
+}
+
+ul li{
+   font-weight:none; 
+   text-decoration:none;  
+}
 
 
- thead {
-   background: #888;
- }
- 
- td {
-   padding: 20px;
+thead {
+  background: #888;
+}
+
+td {
+  padding: 20px;
+  border: solid 1px black;
+}
+
+th {
+  padding: 20px;
+  border: solid 1px black;
+}
+
+fieldset {
+   padding: 10px;
+}
+
+input[type="text"] {
    border: solid 1px black;
- }
+   padding: 5px;
+   border-radius: 3px;
+   width: 50%;
+}
 
- th {
-   padding: 20px;
+input[type="number"] {
    border: solid 1px black;
- }
+   padding: 5px;
+}
+
+button {
+   background: black;
+   color: white;
+   padding: 5px 15px;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   margin-top: 30px;
+   margin-left: 230px;
+}
