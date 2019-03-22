@@ -8,9 +8,33 @@
             </head>
             <body>
                 <a href="index.html" >Home</a>
-                    <h4>Sales By Location</h4>
-                    <p id="location-name">
-                    </p>
+                    <form id="sales_form">
+                            <fieldset>
+                                <label for="location">Location Name:</label>
+                                <input type="text" name="location" placeholder="enter location name" minLength="3" required>
+                            </fieldset>
+                            <fieldset>
+                                <label for="minimum">Minimum Customers:</label>
+                                <input type="number" name="minimum"  min="1" placeholder="0" required>
+                            </fieldset>
+                            <fieldset>
+                                <label for="maximum">Maximum Customers:</label>
+                                <input type="number" name="maximum"  min="1" placeholder="0" required>
+                            </fieldset>  
+                            <fieldset>
+                                    <label for="average">Average Cookie Per Customer:</label>
+                                    <input type="number" name="average"  min="1" placeholder="0" required>
+                            </fieldset>
+                    <button id="submit_btn" type="submit">Add Location</button>           
+                    </form>
+                
+                    <h4 id="sales-table">Sales By Location</h4>
+                    <table>
+                            <thead id = "heading"></thead>
+                            <tbody id="data">
+                            </tbody>
+                            <tfoot id = "footer"></tfoot> 
+                    </table>
             </body>
             <script src="js/sales.js"></script>
 </html>
